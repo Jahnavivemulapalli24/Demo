@@ -10,6 +10,7 @@
 // import ChocolateDetails from './products/ChocolateDetails';
 // import IcecreamDetails from './products/IcecreamDetails';
 // import StudentRegistration from './products/StudentRegistration';
+// import NavBar from './products/NavBar';
 
 import React, { useState } from "react";
 import APIDemo from "./components/API/APIDemo";
