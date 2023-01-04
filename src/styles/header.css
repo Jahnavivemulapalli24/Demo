@@ -1,0 +1,43 @@
+.header{
+
+    padding: 9px;
+
+    margin: 5px;
+
+    background: #0088ff;
+
+    border: 1px solid black;
+
+    margin-top: 10px;
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.footer{
+
+    position: absolute;
+
+    bottom: 0;
+
+    display: block;
+
+    background: aqua;
+
+    width: 100%;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    text-align: center;
+
+}

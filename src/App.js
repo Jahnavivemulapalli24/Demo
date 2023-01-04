@@ -13,6 +13,19 @@
 // import NavBar from './products/NavBar';
 import React, { useState } from "react";
 import APIDemo from "./components/API/APIDemo";
+import Header from './components/header';
+import Footer from './components/footer';
+import HeaderComponent from './components/header';
+import FooterComponent from './components/footer';
+import Main from './components/main';
+import React from 'react';
+import {connect} from 'react-redux' ;
+import { IncAction } from './redux/Action';
+import { DecAction } from './redux/Action';
+
+import Sample from "./components/Sample";
+import Mainpage from "./components/Mainpage";
+import Demo from "./components/redux/Demo";
 
 
 // const App = () => {
@@ -47,9 +60,21 @@ import APIDemo from "./components/API/APIDemo";
 // }
 
 function App() {
+  let offer="myntra"
   return (
     <div>
       <APIDemo />
+      <Header />
+      <HeaderComponent />
+      <HeaderComponent />
+  
+         <Main offer="Myntra" sale="90%"/>
+        <FooterComponent offer="Flipkart" sale="60%" offer1={offer} />
+       <Footer />
+      <Demo />
+      <Sample />
+      <Mainpage />
+
     </div>
   );
 
